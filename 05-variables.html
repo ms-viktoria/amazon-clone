@@ -3,29 +3,62 @@
 
 <head>
   <title>Variables</title>
- 
 </head>
 
 <body>
   <script>
+    let name = "V";
+    console.log(`My name is: ${name}`);
+
+    let coffee1 = 5;
+    console.log(coffee1);
+
+    let bagel1 = 3;
+    console.log(bagel1);
+
+    let soup1 = 9;
+    console.log(soup1);
+
+    const cost = coffee1 + bagel1 * 2 + soup1;
+    console.log(cost);
+
+    console.log(`Cost of food: $${cost}`);
+
+    const tax = cost * 0.1;
+    console.log(tax);
+
+    console.log(`Tax (10%): $${tax}`);
+
+    const totalCost = cost + tax;
+    console.log(totalCost);
+
+    console.log(`Total cost: $${totalCost}`);
+
     let variable1 = 3;
     console.log(variable1);
 
-    let calculation = 2 + 2;
+    const calculation = 2 + 2;
     console.log(calculation);
     console.log(calculation + 2);
 
-   let result = calculation + 2;
-   console.log(result);
+    const result = calculation + 2;
+    console.log(result);
 
-   let message = 'hello';
-   console.log(message); console.log(';');
+    const message = "hello";
+    console.log(message);
+    console.log(";");
 
-   variable1 = 5;
-   console.log(variable1);
+    variable1 = 5;
+    console.log(variable1);
 
-   variable1 = variable1 +1;
-   console.log(variable1);
+    variable1 = variable1 + 1;
+    console.log(variable1);
+
+    const variable2 = 3;
+    var variable3 = 3;
+
+    console.log(typeof variable2);
+    console.log(typeof message);
   </script>
 </body>
 
