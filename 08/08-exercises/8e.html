@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Objects basketball</title>
+</head>
+
+<body>
+  <script>
+    function isSameProduct(product1, product2) {
+      return (
+        product1.name === product2.name &&
+        product1.price === product2.price
+      );
+    }
+
+    const product1 = {
+      name: 'basketball',
+      price: 2095,
+    };
+
+    const product2 = {
+      name: 'basketball',
+      price: 2595,
+    };
+
+    const product3 = {
+      name: 'socks',
+      price: 1090
+    };
+
+
+    console.log(isSameProduct(product1.name, product2.name));
+    console.log(isSameProduct(product2, product3));
+  </script>
+</body>
+
+</html>
