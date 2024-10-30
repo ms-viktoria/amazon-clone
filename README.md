@@ -1,2 +1,2 @@
-# amazon-clone
-Vanilla JavaScript Amazon clone
+# javascript-full-course
+JavaScript Full Course
