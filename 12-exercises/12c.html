@@ -6,13 +6,13 @@
 </head>
 
 <body>
-  <button class="js-start-button" onclick="updateButton();">Start</button>
+  <button class="js-start-button">Start</button>
 
   <script>
     function updateButton() {
       const button = document.querySelector(".js-start-button");
 
-      setTimeout(function () {
+      setTimeout(() => {
         button.innerHTML = "Finished!";
       }, 1000);
     }

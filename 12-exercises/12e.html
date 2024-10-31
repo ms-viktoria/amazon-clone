@@ -6,7 +6,7 @@
 </head>
 
 <body>
-  <button class="js-add-to-cart-button" onclick="displayMessage();">
+  <button class="js-add-to-cart-button">
     Add to cart
   </button>
   <p class="js-message"></p>
@@ -17,7 +17,7 @@
 
       messageElement.innerHTML = "Added";
 
-      setTimeout(function () {
+      setTimeout(() => {
         messageElement.innerHTML = "";
       }, 2000);
     }
